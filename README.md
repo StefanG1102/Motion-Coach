@@ -6,7 +6,7 @@
 
 Train smarter. Recover better. Reach your goals with AI.
 
-![Dashboard](assets/screenshots/dashboard.png)
+![Dashboard](frontend/src/assets/MockUpMotionCoach.png)
 
 ![Status](https://img.shields.io/badge/status-In%20Development-7C3AED)
 ![React](https://img.shields.io/badge/React-19-61DAFB)
@@ -146,7 +146,7 @@ MotionCoach/
 
 ### Dashboard
 
-![Dashboard](assets/screenshots/dashboard.png)
+![Dashboard](frontend/src/assets/MockUpMotionCoach.png)
 
 ---
 
