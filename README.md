@@ -136,7 +136,7 @@ MotionCoach/
 │   └── workflows/
 │
 ├── README.md
-├── LICENSE
+├── LICENSE.md
 └── docker-compose.yml
 ```
 
@@ -180,11 +180,48 @@ npm install
 npm run dev
 ```
 
+
+## Docker Quick Start
+
+### Prerequisites
+
+- [Docker](https://www.docker.com/get-started/)
+- [Git](https://git-scm.com/)
+
+
+### 1. Build and Start
+
+Build and start the application using Docker Compose:
+
+```bash
+docker compose up --build -d
+```
+
+### 2. Access the Application
+
+Once the containers are running, open:
+
+http://localhost:8080
+
+### 3. Stop the Application
+
+Stop and remove the containers:
+
+```bash
+docker compose down
+```
+
+### 4. View Logs (Optional)
+
+```bash
+docker compose logs -f
+```
+
 ## Roadmap
 
 ### Version 1.0
 
-- [x] Dashboard UI
+- [ ] Dashboard UI
 - [ ] User Authentication
 - [ ] Strava OAuth Integration
 - [ ] Activity Synchronization
@@ -214,7 +251,9 @@ Feel free to open an Issue or submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is subject to a custom non-commercial license.
+
+See the [LICENSE](LICENSE) file for details.
 
 ---
 
