@@ -101,6 +101,7 @@ Motion Coach aims to help athletes train more efficiently, prevent overtraining,
 - Strava API
 - OpenAI API
 
+
 ## Project Structure
 
 ```
