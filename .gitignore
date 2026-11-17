@@ -106,7 +106,7 @@ temp/
 *.bak
 
 # ==========================
-# Generated screenshots (optional)
+# Generated screenshots
 # ==========================
 screenshots/tmp/
 
@@ -115,3 +115,9 @@ screenshots/tmp/
 # ==========================
 .AppleDouble
 .LSOverride
+
+
+# ==========================
+# Output Directories
+# ==========================
+.Output/
