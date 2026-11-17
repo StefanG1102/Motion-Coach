@@ -1,0 +1,54 @@
+
+name: Feature Request
+description: Suggest a new feature
+title: "feat: "
+labels: ["enhancement"]
+
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem should this feature solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the proposed feature.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Have you considered other solutions?
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      value: |
+        - [ ] Feature is implemented
+        - [ ] Feature is tested
+        - [ ] Documentation is updated
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add mockups, links or other information.
